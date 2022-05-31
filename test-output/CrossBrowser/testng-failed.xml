@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser]" parallel="tests">
+  <test thread-count="3" name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="in.ptmantra.testscripts.Login">
+        <methods>
+          <include name="invalidCredentials"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="correctPwd"/>
+          <include name="correctUserName"/>
+          <include name="resetPassword"/>
+          <include name="emptyCredentials"/>
+          <include name="registration"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- in.ptmantra.testscripts.Login -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="3" name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="EDGE"/>
+    <classes>
+      <class name="in.ptmantra.testscripts.Login">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="correctPwd"/>
+        </methods>
+      </class> <!-- in.ptmantra.testscripts.Login -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [CrossBrowser] -->

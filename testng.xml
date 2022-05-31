@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="skip" >
+  <test thread-count="5" name="TestCases">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="in.ptmantra.testscripts.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
