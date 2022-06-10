@@ -50,5 +50,7 @@ public interface ActionInterface {
 	public void pageLoadTimeOut(WebDriver driver, int timeOut);
 	public String screenShot(WebDriver driver, String filename);
 	public String getCurrentTime();
+	public boolean isTextPresent(String text);
+	
 
 }

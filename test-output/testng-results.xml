@@ -1,424 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="CrossBrowser" duration-ms="197712" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:38:35 IST">
+  <suite name="Suite" duration-ms="126150" started-at="2022-06-09T20:41:35 IST" finished-at="2022-06-09T20:43:41 IST">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="145457" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:37:43 IST">
-      <class name="in.ptmantra.testscripts.Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="6801" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:35:24 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validCredentials()[pri:1, instance:in.ptmantra.testscripts.Login@6950e31]" name="validCredentials" duration-ms="12279" started-at="2022-05-31T16:35:24 IST" finished-at="2022-05-31T16:35:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="164" started-at="2022-05-31T16:35:36 IST" finished-at="2022-05-31T16:35:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="12165" started-at="2022-05-31T16:35:37 IST" finished-at="2022-05-31T16:35:49 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidCredentials()[pri:2, instance:in.ptmantra.testscripts.Login@6950e31]" name="invalidCredentials" duration-ms="12670" started-at="2022-05-31T16:35:49 IST" finished-at="2022-05-31T16:36:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="479" started-at="2022-05-31T16:36:01 IST" finished-at="2022-05-31T16:36:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="8330" started-at="2022-05-31T16:36:02 IST" finished-at="2022-05-31T16:36:10 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="emptyCredentials()[pri:3, instance:in.ptmantra.testscripts.Login@6950e31]" name="emptyCredentials" duration-ms="10994" started-at="2022-05-31T16:36:10 IST" finished-at="2022-05-31T16:36:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="261" started-at="2022-05-31T16:36:21 IST" finished-at="2022-05-31T16:36:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="8641" started-at="2022-05-31T16:36:22 IST" finished-at="2022-05-31T16:36:30 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctUserName()[pri:4, instance:in.ptmantra.testscripts.Login@6950e31]" name="correctUserName" duration-ms="13851" started-at="2022-05-31T16:36:30 IST" finished-at="2022-05-31T16:36:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="170" started-at="2022-05-31T16:36:44 IST" finished-at="2022-05-31T16:36:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="6945" started-at="2022-05-31T16:36:44 IST" finished-at="2022-05-31T16:36:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctPwd()[pri:5, instance:in.ptmantra.testscripts.Login@6950e31]" name="correctPwd" duration-ms="11726" started-at="2022-05-31T16:36:51 IST" finished-at="2022-05-31T16:37:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- correctPwd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="1278" started-at="2022-05-31T16:37:03 IST" finished-at="2022-05-31T16:37:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="8656" started-at="2022-05-31T16:37:04 IST" finished-at="2022-05-31T16:37:13 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registration()[pri:6, instance:in.ptmantra.testscripts.Login@6950e31]" name="registration" duration-ms="10091" started-at="2022-05-31T16:37:13 IST" finished-at="2022-05-31T16:37:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="429" started-at="2022-05-31T16:37:23 IST" finished-at="2022-05-31T16:37:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="setup" is-config="true" duration-ms="9039" started-at="2022-05-31T16:37:23 IST" finished-at="2022-05-31T16:37:32 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resetPassword()[pri:7, instance:in.ptmantra.testscripts.Login@6950e31]" name="resetPassword" duration-ms="10190" started-at="2022-05-31T16:37:32 IST" finished-at="2022-05-31T16:37:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@6950e31]" name="teardown" is-config="true" duration-ms="207" started-at="2022-05-31T16:37:43 IST" finished-at="2022-05-31T16:37:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- in.ptmantra.testscripts.Login -->
-    </test> <!-- ChromeTest -->
-    <test name="IETest" duration-ms="168937" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:38:06 IST">
-      <class name="in.ptmantra.testscripts.Login">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="loadConfig" is-config="true" duration-ms="14" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:35:17 IST">
+    <test name="TestCases" duration-ms="126150" started-at="2022-06-09T20:41:35 IST" finished-at="2022-06-09T20:43:41 IST">
+      <class name="in.ptmantra.testscripts.AddNewPatients">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="loadConfig" is-config="true" duration-ms="8" started-at="2022-06-09T20:41:35 IST" finished-at="2022-06-09T20:41:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="11432" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:35:29 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="setup" is-config="true" duration-ms="19367" started-at="2022-06-09T20:41:35 IST" finished-at="2022-06-09T20:41:54 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EDGE]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validCredentials()[pri:1, instance:in.ptmantra.testscripts.Login@eb21112]" name="validCredentials" duration-ms="11097" started-at="2022-05-31T16:35:29 IST" finished-at="2022-05-31T16:35:40 IST">
+        <test-method status="PASS" signature="creatingNewPatient()[pri:1, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="creatingNewPatient" duration-ms="11647" started-at="2022-06-09T20:41:54 IST" finished-at="2022-06-09T20:42:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="3045" started-at="2022-05-31T16:35:40 IST" finished-at="2022-05-31T16:35:43 IST">
+        </test-method> <!-- creatingNewPatient -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="tearDown" is-config="true" duration-ms="1355" started-at="2022-06-09T20:42:06 IST" finished-at="2022-06-09T20:42:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="14868" started-at="2022-05-31T16:35:43 IST" finished-at="2022-05-31T16:35:58 IST">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="setup" is-config="true" duration-ms="10389" started-at="2022-06-09T20:42:07 IST" finished-at="2022-06-09T20:42:17 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EDGE]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidCredentials()[pri:2, instance:in.ptmantra.testscripts.Login@eb21112]" name="invalidCredentials" duration-ms="12728" started-at="2022-05-31T16:35:58 IST" finished-at="2022-05-31T16:36:11 IST">
+        <test-method status="PASS" signature="emptyFirstName()[pri:2, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="emptyFirstName" duration-ms="19022" started-at="2022-06-09T20:42:17 IST" finished-at="2022-06-09T20:42:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="288" started-at="2022-05-31T16:36:11 IST" finished-at="2022-05-31T16:36:11 IST">
+        </test-method> <!-- emptyFirstName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="tearDown" is-config="true" duration-ms="1358" started-at="2022-06-09T20:42:36 IST" finished-at="2022-06-09T20:42:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="8971" started-at="2022-05-31T16:36:11 IST" finished-at="2022-05-31T16:36:20 IST">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="setup" is-config="true" duration-ms="10710" started-at="2022-06-09T20:42:38 IST" finished-at="2022-06-09T20:42:48 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EDGE]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="emptyCredentials()[pri:3, instance:in.ptmantra.testscripts.Login@eb21112]" name="emptyCredentials" duration-ms="11037" started-at="2022-05-31T16:36:20 IST" finished-at="2022-05-31T16:36:31 IST">
+        <test-method status="PASS" signature="emptyLastName()[pri:3, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="emptyLastName" duration-ms="9382" started-at="2022-06-09T20:42:49 IST" finished-at="2022-06-09T20:42:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emptyCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="1109" started-at="2022-05-31T16:36:31 IST" finished-at="2022-05-31T16:36:32 IST">
+        </test-method> <!-- emptyLastName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="tearDown" is-config="true" duration-ms="1357" started-at="2022-06-09T20:42:58 IST" finished-at="2022-06-09T20:42:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="11424" started-at="2022-05-31T16:36:32 IST" finished-at="2022-05-31T16:36:43 IST">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="setup" is-config="true" duration-ms="10704" started-at="2022-06-09T20:42:59 IST" finished-at="2022-06-09T20:43:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EDGE]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctUserName()[pri:4, instance:in.ptmantra.testscripts.Login@eb21112]" name="correctUserName" duration-ms="11771" started-at="2022-05-31T16:36:43 IST" finished-at="2022-05-31T16:36:55 IST">
+        <test-method status="PASS" signature="emptyEmail()[pri:4, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="emptyEmail" duration-ms="10978" started-at="2022-06-09T20:43:10 IST" finished-at="2022-06-09T20:43:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="1182" started-at="2022-05-31T16:36:55 IST" finished-at="2022-05-31T16:36:56 IST">
+        </test-method> <!-- emptyEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="tearDown" is-config="true" duration-ms="1344" started-at="2022-06-09T20:43:21 IST" finished-at="2022-06-09T20:43:22 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="13092" started-at="2022-05-31T16:36:56 IST" finished-at="2022-05-31T16:37:09 IST">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="setup" is-config="true" duration-ms="9384" started-at="2022-06-09T20:43:22 IST" finished-at="2022-06-09T20:43:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[EDGE]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctPwd()[pri:5, instance:in.ptmantra.testscripts.Login@eb21112]" name="correctPwd" duration-ms="12354" started-at="2022-05-31T16:37:09 IST" finished-at="2022-05-31T16:37:22 IST">
+        <test-method status="PASS" signature="fullempty()[pri:5, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="fullempty" duration-ms="7702" started-at="2022-06-09T20:43:32 IST" finished-at="2022-06-09T20:43:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- correctPwd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="241" started-at="2022-05-31T16:37:22 IST" finished-at="2022-05-31T16:37:22 IST">
+        </test-method> <!-- fullempty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.ptmantra.testscripts.AddNewPatients@b7dd107]" name="tearDown" is-config="true" duration-ms="1395" started-at="2022-06-09T20:43:39 IST" finished-at="2022-06-09T20:43:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="14990" started-at="2022-05-31T16:37:22 IST" finished-at="2022-05-31T16:37:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EDGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registration()[pri:6, instance:in.ptmantra.testscripts.Login@eb21112]" name="registration" duration-ms="10257" started-at="2022-05-31T16:37:37 IST" finished-at="2022-05-31T16:37:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="245" started-at="2022-05-31T16:37:47 IST" finished-at="2022-05-31T16:37:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="setup" is-config="true" duration-ms="8351" started-at="2022-05-31T16:37:48 IST" finished-at="2022-05-31T16:37:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EDGE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resetPassword()[pri:7, instance:in.ptmantra.testscripts.Login@eb21112]" name="resetPassword" duration-ms="10148" started-at="2022-05-31T16:37:56 IST" finished-at="2022-05-31T16:38:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@eb21112]" name="teardown" is-config="true" duration-ms="224" started-at="2022-05-31T16:38:06 IST" finished-at="2022-05-31T16:38:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- in.ptmantra.testscripts.Login -->
-    </test> <!-- IETest -->
-    <test name="FirefoxTest" duration-ms="197712" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:38:35 IST">
-      <class name="in.ptmantra.testscripts.Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="10685" started-at="2022-05-31T16:35:17 IST" finished-at="2022-05-31T16:35:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validCredentials()[pri:1, instance:in.ptmantra.testscripts.Login@401e7803]" name="validCredentials" duration-ms="13383" started-at="2022-05-31T16:35:28 IST" finished-at="2022-05-31T16:35:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="6490" started-at="2022-05-31T16:35:41 IST" finished-at="2022-05-31T16:35:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="16568" started-at="2022-05-31T16:35:48 IST" finished-at="2022-05-31T16:36:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidCredentials()[pri:2, instance:in.ptmantra.testscripts.Login@401e7803]" name="invalidCredentials" duration-ms="14730" started-at="2022-05-31T16:36:04 IST" finished-at="2022-05-31T16:36:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="2939" started-at="2022-05-31T16:36:19 IST" finished-at="2022-05-31T16:36:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="15152" started-at="2022-05-31T16:36:22 IST" finished-at="2022-05-31T16:36:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="emptyCredentials()[pri:3, instance:in.ptmantra.testscripts.Login@401e7803]" name="emptyCredentials" duration-ms="10665" started-at="2022-05-31T16:36:37 IST" finished-at="2022-05-31T16:36:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="2931" started-at="2022-05-31T16:36:48 IST" finished-at="2022-05-31T16:36:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="13628" started-at="2022-05-31T16:36:51 IST" finished-at="2022-05-31T16:37:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctUserName()[pri:4, instance:in.ptmantra.testscripts.Login@401e7803]" name="correctUserName" duration-ms="16496" started-at="2022-05-31T16:37:05 IST" finished-at="2022-05-31T16:37:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="2675" started-at="2022-05-31T16:37:21 IST" finished-at="2022-05-31T16:37:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="17096" started-at="2022-05-31T16:37:24 IST" finished-at="2022-05-31T16:37:41 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="correctPwd()[pri:5, instance:in.ptmantra.testscripts.Login@401e7803]" name="correctPwd" duration-ms="12814" started-at="2022-05-31T16:37:41 IST" finished-at="2022-05-31T16:37:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- correctPwd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="2435" started-at="2022-05-31T16:37:54 IST" finished-at="2022-05-31T16:37:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="8383" started-at="2022-05-31T16:37:56 IST" finished-at="2022-05-31T16:38:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registration()[pri:6, instance:in.ptmantra.testscripts.Login@401e7803]" name="registration" duration-ms="10146" started-at="2022-05-31T16:38:04 IST" finished-at="2022-05-31T16:38:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="1384" started-at="2022-05-31T16:38:15 IST" finished-at="2022-05-31T16:38:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="setup" is-config="true" duration-ms="7519" started-at="2022-05-31T16:38:16 IST" finished-at="2022-05-31T16:38:23 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resetPassword()[pri:7, instance:in.ptmantra.testscripts.Login@401e7803]" name="resetPassword" duration-ms="10113" started-at="2022-05-31T16:38:23 IST" finished-at="2022-05-31T16:38:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:in.ptmantra.testscripts.Login@401e7803]" name="teardown" is-config="true" duration-ms="1398" started-at="2022-05-31T16:38:34 IST" finished-at="2022-05-31T16:38:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- in.ptmantra.testscripts.Login -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- CrossBrowser -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- in.ptmantra.testscripts.AddNewPatients -->
+    </test> <!-- TestCases -->
+  </suite> <!-- Suite -->
 </testng-results>

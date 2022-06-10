@@ -614,6 +614,16 @@ public class Action extends BaseClass implements ActionInterface {
 		}
 		return text;
 	}
+	
+	public boolean isTextPresent(String text, WebDriver driver){
+        try{
+            boolean b = driver.getPageSource().contains(text);
+            return b;
+        }
+        catch(Exception e){
+            return false;
+        }
+  }
 
 	public String getCurrentURL(WebDriver driver) {
 		boolean flag = false;
@@ -692,6 +702,11 @@ public class Action extends BaseClass implements ActionInterface {
 	public void click(ThreadLocal<RemoteWebDriver> driver, WebElement ele) {
 		// TODO Auto-generated method stub
 
+	}
+
+	public boolean isTextPresent(String text) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
